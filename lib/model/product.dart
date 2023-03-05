@@ -49,7 +49,7 @@ class Product {
       uid: map['uid'],
       sellerName: map['sellerName'] ?? '',
       sellerUid: map['sellerUid'] ?? '',
-      rating: map['rating']?.toInt() ?? 0,
+      rating: map['rating'] ?? 0,
       numberOfRatings: map['numberOfRatings']?.toInt() ?? 0,
     );
   }
